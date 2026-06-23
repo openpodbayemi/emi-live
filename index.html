@@ -1,1 +1,34 @@
-<!doctype html><meta charset=utf-8><meta http-equiv=refresh content=30><title>Emi · Live Operations</title><body style="background:#0b0d12;color:#e8ecf4;font-family:system-ui,sans-serif;text-align:center;padding-top:16vh"><h1>Emi · Live Operations</h1><p style="color:#8b95ab">Setting up — the live feed appears here when Emi starts operating.</p></body>
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="refresh" content="30">
+<title>Emi · Live Operations</title>
+<style>
+  body{margin:0;background:#0b0d12;color:#e8ecf4;font:14px/1.55 ui-sans-serif,-apple-system,Segoe UI,Roboto,sans-serif}
+  header{padding:22px 26px 18px;border-bottom:1px solid #232a3a;background:#141824}
+  h1{margin:0;font-size:17px} h1 .dim{color:#8b95ab;font-weight:500}
+  .badge{font-size:12px;font-weight:600;padding:2px 9px;border-radius:11px;margin-left:8px}
+  .b-operating{background:#143d2a;color:#5fe3a1} .b-finished{background:#33372a;color:#d7e35f}
+  .b-forming,.b-starting{background:#2a3340;color:#7fa9d4} .b-error{background:#41201f;color:#ff8a80}
+  .mission{margin:9px 0 0;color:#aebfe0;font-size:13.5px;max-width:900px}
+  .stats{display:flex;gap:12px;flex-wrap:wrap;margin-top:16px}
+  .card{background:#141824;border:1px solid #232a3a;border-radius:12px;padding:10px 14px;min-width:88px}
+  .card .v{font-size:20px;font-weight:750} .card .k{font-size:10.5px;color:#8b95ab;text-transform:uppercase;letter-spacing:.6px}
+  main{max-width:920px;margin:0 auto;padding:22px 26px 50px}
+  .feed{border-left:2px solid #232a3a;margin-left:8px}
+  .item{position:relative;padding:11px 0 11px 30px;display:flex;gap:12px;align-items:flex-start}
+  .item .dot{position:absolute;left:-13px;top:9px;width:24px;height:24px;border-radius:50%;display:flex;
+    align-items:center;justify-content:center;font-size:12px;background:#191e2c;border:1px solid #232a3a}
+  .item .tx{flex:1} .item .tm{color:#5b647a;font-size:11px}
+  .k-milestone .tx,.k-sale .tx{font-weight:650} .k-sale .tx{color:#5fe3a1} .k-error .tx{color:#ff8a80}
+  .k-tick .tx{color:#8b95ab}
+  .empty{color:#5b647a;padding:24px}
+  footer{max-width:920px;margin:0 auto;padding:0 26px 40px;color:#5b647a;font-size:12px}
+</style></head>
+<body>
+<header>
+  <h1>Emi <span class="dim">· Live Operations</span> <span class="badge b-operating">operating</span></h1>
+  <div class="mission">Run &#x27;InboxZero Audits&#x27; — a one-time $79 email-deliverability audit for B2B SaaS founders, delivered as a PDF report within 3 business days.</div>
+  <div class="stats"><div class="card"><div class="v">1</div><div class="k">products</div></div><div class="card"><div class="v">0</div><div class="k">posts</div></div><div class="card"><div class="v">0</div><div class="k">sales</div></div><div class="card"><div class="v">0.0</div><div class="k">$ balance</div></div><div class="card"><div class="v">0</div><div class="k">customers</div></div><div class="card"><div class="v">0</div><div class="k">orders</div></div></div>
+</header>
+<main><div class="feed"><div class="item k-decision"><div class="dot">🧭</div><div class="body"><div class="tx">Checklist item is marked done and control returns to the parent workflow.</div><div class="tm">+34s</div></div></div><div class="item k-product"><div class="dot">🏷️</div><div class="body"><div class="tx">Payments product prod_000001 is created.</div><div class="tm">+34s</div></div></div><div class="item k-product"><div class="dot">🏷️</div><div class="body"><div class="tx">Adds product &#x27;InboxZero Audits - Email Deliverability Audit&#x27; priced at $79 to payments system.</div><div class="tm">+16s</div></div></div><div class="item k-tick"><div class="dot">⚙️</div><div class="body"><div class="tx">Operating — taking the next action (step 1)…</div><div class="tm">+0s</div></div></div><div class="item k-milestone"><div class="dot">🎯</div><div class="body"><div class="tx">Resumed business: Run &#x27;InboxZero Audits&#x27; — a one-time $79 email-deliverability audit for B2B SaaS founders, delivered as a PDF report within 3 business days.</div><div class="tm">+0s</div></div></div></div></main>
+<footer>Updated 2026-06-23 16:55:58 · 5 events · auto-refreshing every 30s · a live window into an autonomous AI running a business.</footer>
+</body></html>
